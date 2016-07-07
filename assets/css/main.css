@@ -5,7 +5,7 @@ body {
 
 /*Header*/
 
-#headerwrap {
+#bugeramplifier {
   background-image: url(../img/amplifierstars.jpg);
   color: white;
   font-weight:  lighter;
@@ -13,25 +13,29 @@ body {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 30px;
-}
-
-#headerwrap ul {
   text-align: center;
-  padding-top: 20px;
-}
-
-#headerwrap li { 
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 #logo-revolt {
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-#headerwrap h2 {
+#bugeramplifier ul {
+  /*text-align: center;*/
+  /*padding-top: 20px;*/
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+#bugeramplifier li { 
+  /*display: inline-block;*/
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#bugeramplifier h2 {
   color: white;
   font-size: 24px;
   font-weight: 100;
@@ -51,7 +55,14 @@ body {
   padding-bottom: 10px;
 }
 
-#text-center > h1 {
+#bg-image-k7 h1 {
+  color: black;
+}
+
+
+
+
+/*#text-center > h1 {
   font-size: 50px;
 }
 
@@ -63,20 +74,20 @@ body {
   color: #1c1c1c;
   display: inline-block;
   text-align: left;
-}
+}*/
 
 
 
 
 /*========================================================================== */
 
-/*MUSIK*/
-#bg-image-musik {
-  background-image: url(../img/songvinyle.jpg);
-  color: white;
+/*MUSIC*/
+#bg-image-music {
+  background-image: url(../img/playing.jpg);
+  color: black;
   padding: 150px 50px;
   background-size: cover;
-  height: 450px;  
+  height: 400px;  
   width: 100%;
   align: middle;
   text-align: center;
@@ -105,6 +116,29 @@ div > audio {
   text-align: center;
   vertical-align: middle;
 }
+
+.bg-gray,
+.bg-gray .container .row h1 {
+  background-color: #d4d4d4;
+  color: black;
+  /*padding: 150px 50px;*/
+  /*height: 400px;  
+  width: 100%;*/
+  /*align: middle;*/
+  text-align: center;
+  /*vertical-align: middle;*/
+}
+
+#revolt {
+  padding-top:  20px;
+  padding-bottom:  20px;
+  /*vertical-align: center;*/
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 /*========================================================================== */
 
 /*BREAK*/
@@ -122,12 +156,12 @@ div > audio {
 /*========================================================================== */
 
 /*UPCOMING SHOWS*/
-#bg-image-openmic {
-  background-image: url(../img/solomic.jpg);
+#bg-solomic {
+  background-image: url(../img/solomicxs.jpg);
   color: white;
   padding: 150px 50px;
   background-size: cover;
-  height: 750px;  
+  height: 350px;  
   width: 100%;
   align: middle;
   text-align: center;
@@ -135,25 +169,55 @@ div > audio {
   padding-top: 300px;
   padding-bottom: 250px;
 }
+
+.text-center {
+ margin: auto;
+ text-align: center;
+ width: 60%;
+ position: relative;
+}
+
+.text-center h3, p {
+ font-size: 20px;
+ color: #1c1c1c;
+ text-align: left;
+ display: block;
+}
+
+.bg-gray .container {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.bg-gray h1 {
+  padding-bottom: 20px;
+}
+
+
 /*========================================================================== */
 
 /*ALBUM COMING SOON*/
-#bg-image-album {
-  background-image: url(../img/album.jpg);
-  /*color: white;*/
-  padding: 150px 50px;
+#bg-vinyles {
+  background-image: url(../img/songvinyledark.jpg);
+  color: white;
+  font-weight:  lighter;
+  padding: 100px 50px;
+  /*padding-top: 50px;
+  padding-bottom: 30px;*/
   background-size: cover;
-  height: 850px;  
+  height: 400px; 
   width: 100%;
   align: middle;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
 }
 
-#bg-image-album > h1 {
-  padding-left: 20px;
-  color: black;
+
+#revillusion {
+  display: block;
+  margin: 0 auto;
 }
+
 /*========================================================================== */
 
 
@@ -327,9 +391,9 @@ a:focus {
 Footer
 ==========================================================================*/
 
-#bg-image-footerplant {
-  background: black;
-  background-image: url(../img/footerplant.jpg);
+#bg-footer {
+  /*background-image: url(../img/amplifierstars.jpg);*/
+  background-color: black;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -339,18 +403,18 @@ Footer
   vertical-align: middle;
 }
 
-#bg-image-footerplant i {
+#bg-footer i {
   font-size: 26px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 
-#bg-image-footerplant li {
+#bg-footer li {
   padding-right: 15px;
 }
 
-#bg-image-footerplant ul {
+#bg-footer ul {
   padding-top: 30px;
   padding-bottom: 40px;
 }
