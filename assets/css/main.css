@@ -415,11 +415,13 @@ Footer
 }
 
 #bg-footer ul {
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  margin-bottom: 0px;
 }
 
-.back-to-top {
+/*.back-to-top {
 background: none;
 position: fixed;
 margin: 0;
@@ -435,7 +437,7 @@ color: #ff7d95;
  
 .back-to-top i {
   font-size: 60px;
-}
+}*/
 
 
 /*========================================================================== */
