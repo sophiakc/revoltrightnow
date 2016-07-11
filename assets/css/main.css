@@ -83,7 +83,7 @@ body {
 
 /*MUSIC*/
 #bg-image-music {
-  background-image: url(../img/playing.jpg);
+  background-image: url(../img/playingop60.jpg);
   color: black;
   padding: 150px 50px;
   background-size: cover;
@@ -198,7 +198,7 @@ div > audio {
 
 /*ALBUM COMING SOON*/
 #bg-vinyles {
-  background-image: url(../img/songvinyledark.jpg);
+  background-image: url(../img/songvinyleop60.jpg);
   color: white;
   font-weight:  lighter;
   padding: 100px 50px;
@@ -392,7 +392,6 @@ Footer
 ==========================================================================*/
 
 #bg-footer {
-  /*background-image: url(../img/amplifierstars.jpg);*/
   background-color: black;
   color: white;
   padding-top: 20px;
